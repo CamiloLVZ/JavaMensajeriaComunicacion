@@ -34,11 +34,11 @@ public class Mensaje<T> {
         this.accion = accion;
     }
 
-    public Metadata getMetadatos() {
+    public Metadata getMetadata() {
         return metadata;
     }
 
-    public void setMetadatos(Metadata metadata) {
+    public void setMetadata(Metadata metadata) {
         this.metadata = metadata;
     }
 
