@@ -4,9 +4,9 @@ public class PayloadEnviarMensaje {
     private String autor;
     private String contenido;
 
-    PayloadEnviarMensaje() {}
+    public PayloadEnviarMensaje() {}
 
-    PayloadEnviarMensaje(String autor, String contenido) {
+    public PayloadEnviarMensaje(String autor, String contenido) {
         this.autor = autor;
         this.contenido = contenido;
     }
