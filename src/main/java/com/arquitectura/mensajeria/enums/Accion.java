@@ -2,6 +2,7 @@ package com.arquitectura.mensajeria.enums;
 
 public enum Accion {
     CONECTAR,
+    DESCONECTAR,
     LISTAR_CLIENTES,
     LISTAR_DOCUMENTOS,
     LISTAR_MENSAJES,
