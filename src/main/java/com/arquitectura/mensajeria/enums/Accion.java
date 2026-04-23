@@ -9,5 +9,9 @@ public enum Accion {
     LISTAR_LOGS,
     ENVIAR_DOCUMENTO,
     OBTENER_DOCUMENTO,
-    ENVIAR_MENSAJE
+    ENVIAR_MENSAJE,
+    INICIAR_STREAM,
+    FINALIZAR_STREAM,
+    SOLICITAR_STREAM,       // cliente pide descargar un archivo
+    INICIAR_DESCARGA        // servidor responde con metadatos antes de enviar chunks
 }

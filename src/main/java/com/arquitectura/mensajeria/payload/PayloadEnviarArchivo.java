@@ -7,6 +7,7 @@ public class PayloadEnviarArchivo {
     private String extension;
     private long tamano;
     private String clientIdDestino;
+    private String remitente;
 
     public PayloadEnviarArchivo() {}
 
@@ -56,5 +57,13 @@ public class PayloadEnviarArchivo {
 
     public void setClientIdDestino(String clientIdDestino) {
         this.clientIdDestino = clientIdDestino;
+    }
+
+    public String getRemitente() {
+        return remitente;
+    }
+
+    public void setRemitente(String remitente) {
+        this.remitente = remitente;
     }
 }
